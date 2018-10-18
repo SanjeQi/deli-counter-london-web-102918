@@ -17,12 +17,12 @@ def take_a_number(line_arr, new_person)
   puts "Welcome, #{new_person}. You are number #{line_arr.length} in line."
 end
 
-def now_serving(line_arr)
-  if line_arr.length == 0
+def now_serving(line)
+  if line.length == 0
     puts "There is nobody waiting to be served!"
   else 
     puts "Currently serving #{line[0]}."
-    line_arr.shift
+    line.shift
   end
 end
   
