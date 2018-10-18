@@ -1,4 +1,4 @@
-def line_arr(arr)
+def line(arr)
   if arr.length >= 1 
     new_arr = []
     counter = 1
