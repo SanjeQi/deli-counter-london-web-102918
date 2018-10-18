@@ -27,7 +27,7 @@ describe 'Deli Counter' do
     end
   end
 
-  describe "#e_a_numbertak" do
+  describe "#take_a_number" do
     context "there is nobody in line" do
       it "should add a person to the line" do
         expect($stdout).to receive(:puts).with("Welcome, Ada. You are number 1 in line.")
