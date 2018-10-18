@@ -8,6 +8,8 @@ def line(arr)
     end
     puts "The line is currently: #{new_arr.join(" ")}"
   else
-    puts 
+    puts "The line is currently empty."
+  end
+end
     
   
