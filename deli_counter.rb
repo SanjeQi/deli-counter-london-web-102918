@@ -6,6 +6,8 @@ def line(arr)
       new_arr.push("#{counter}. #{name}")
       counter += 1
     end
-    puts ""
+    puts "The line is currently: #{new_arr.join(" ")}"
+  else
+    puts 
     
   
