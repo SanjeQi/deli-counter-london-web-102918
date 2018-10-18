@@ -1,5 +1,5 @@
 def line(arr)
-  if arr.lenght >= 1 
+  if arr.length >= 1 
     new_arr = []
     counter = 1
     arr.each do |name|
