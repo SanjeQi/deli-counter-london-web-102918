@@ -12,5 +12,7 @@ def line(arr)
   end
 end
 
-def take_a_number(line,new_person)
+def take_a_number(line_arr, new_person)
+  line_arr.push(new_person)
   puts
+  
