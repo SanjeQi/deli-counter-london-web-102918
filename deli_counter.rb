@@ -1,4 +1,4 @@
-def line(arr)
+def line_arr(arr)
   if arr.length >= 1 
     new_arr = []
     counter = 1
@@ -17,5 +17,6 @@ def take_a_number(line_arr, new_person)
   puts "Welcome, #{new_person}. You are number #{line_arr.length} in line."
 end
 
-def now_serving()
+def now_serving(line_arr)
+  
   
